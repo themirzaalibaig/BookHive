@@ -1,0 +1,90 @@
+# Environment Configuration
+.env
+.env.local
+.env.*.local
+
+# Composer
+/vendor/
+composer.lock
+composer.phar
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Cache & Temporary Files
+cache/
+tmp/
+temp/
+*.tmp
+*.cache
+
+# Session Files
+sessions/
+*.sess
+
+# Uploaded Files (if you have an uploads directory)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Database Backups
+*.sql.gz
+*.sql.zip
+backup/
+backups/
+
+# Legacy Files
+legacy/
+
+# Node Modules (if you add frontend build tools later)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build Files
+dist/
+build/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# PHP Storm
+.phpunit.result.cache
+
+# Test Coverage
+coverage/
+.phpunit.cache
+
+# Documentation Build
+docs/_build/
+
+# Sensitive Files
+*.pem
+*.key
+*.cert
+*.crt
+id_rsa
+id_rsa.pub
+
+# Keep these files
+!.gitkeep
+!.htaccess
+!.env.example
